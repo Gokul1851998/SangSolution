@@ -734,7 +734,7 @@ a.theme-btn {
   cursor: pointer;
   line-height: 40px;
   border-radius: 5px;
-  background: var(--primary-color);
+  background: #1b77e9;
   -webkit-animation: pulse 2s infinite;
   animation: pulse 2s infinite; }
 
