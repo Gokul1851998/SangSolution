@@ -56,7 +56,7 @@ body {
   font-weight: 400;
   line-height: 32px;
   font-size: 16px;
-  font-family: "Roboto", sans-serif;
+  font-family: helvetica;
   --base-color: #838694;
   --heading-color: #1b1f2e;
   --primary-color: #30f0b6;
@@ -463,7 +463,7 @@ a.theme-btn {
     margin-right: 12px;
     border-radius: 50%;
     color: var(--secondary-color);
-    font-family: 'Font Awesome 5 Pro'; }
+    font-family: 'helvetica'; }
 
 /* List style Two */
 .list-style-two li:not(:last-child) {
@@ -479,7 +479,7 @@ a.theme-btn {
     -webkit-transition: 0.5s;
     -o-transition: 0.5s;
     transition: 0.5s;
-    font-family: "Font Awesome 5 Pro"; }
+    font-family: "helvetica"; }
   .list-style-two li a:hover {
     padding-left: 20px;
     text-decoration: underline; }
@@ -493,7 +493,7 @@ a.theme-btn {
 .list-style-three li:before {
   content: "\f101";
   margin-right: 10px;
-  font-family: 'Font Awesome 5 Pro'; }
+  font-family: 'helvetica'; }
 
 /** Social Link One **/
 .social-style-one {
@@ -886,7 +886,7 @@ a.theme-btn {
   background-color: #0f1425; }
 
 .bgc-gray {
-  background-color: #0f56d4; }
+  background-color: #1b1f2e; }
 
 .bgc-primary {
   background-color: var(--primary-color); }
@@ -971,7 +971,7 @@ h6,
 .shop-shorter .filter-part span {
   font-weight: 600;
   color: var(--heading-color);
-  font-family: "Poppins", sans-serif; }
+  font-family: helvetica; }
 
 h1, .h1 {
   line-height: 1.1;
@@ -3257,7 +3257,7 @@ h6, .h6 {
       font-weight: 600;
       position: relative;
       color: var(--heading-color);
-      font-family: "Poppins", sans-serif;
+      font-family: helvetica;
       text-transform: capitalize;
       -webkit-transition: all 500ms ease;
       -o-transition: all 500ms ease;
@@ -4005,7 +4005,7 @@ h6, .h6 {
       flex: none;
       color: white;
       content: "\f105";
-      font-family: "Font Awesome 5 Pro"; }
+      font-family: "helvetica"; }
 
 /*******************************************************/
 /******************* ## Main Slider *******************/
@@ -4033,15 +4033,16 @@ h6, .h6 {
     bottom: 0;
     z-index: -1;
     opacity: 0.65;
-    background: -webkit-gradient(linear, right top, left top, from(var(--primary-color)), to(var(--secondary-color)));
-    background: -webkit-linear-gradient(right, var(--primary-color), var(--secondary-color));
-    background: -o-linear-gradient(right, var(--primary-color), var(--secondary-color));
-    background: linear-gradient(-90deg, var(--primary-color), var(--secondary-color));
+    background: -webkit-gradient(linear, right top, left top, from(#1b77e9), to(#0f58d5));
+    background: -webkit-linear-gradient(right, #1b77e9, #0f58d5);
+    background: -o-linear-gradient(right, #1b77e9, #0f58d5);
+    background: linear-gradient(-90deg, #1b77e9, #0f58d5);
     -webkit-clip-path: polygon(100% 0, 100% 100%, 0% 100%, 40% 40%, 60% 55%);
     clip-path: polygon(100% 0, 100% 100%, 0% 100%, 40% 40%, 60% 55%); }
 
 .slide-content {
-  max-width: 515px; }
+  max-width: 515px; 
+}
   .slide-content .sub-title {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -4055,7 +4056,7 @@ h6, .h6 {
       .slide-content .sub-title {
         font-size: 22px; } }
     .slide-content .sub-title:before {
-      content: '';
+    
       width: 60px;
       height: 2px;
       margin-right: 20px;
@@ -4154,7 +4155,7 @@ h6, .h6 {
 
 /* Slider Area Two */
 .slider-area-two {
-  overflow: hidden; }
+  }
   .slider-area-two:after {
     width: 40%;
     height: 70%;
@@ -4184,6 +4185,7 @@ h6, .h6 {
     line-height: 1; }
 
 .slider-item-two {
+  background-image: url('/assets/images/background/web-design-team.png');
   z-index: 1;
   position: relative;
   padding-top: 130px;
@@ -4865,7 +4867,7 @@ h6, .h6 {
       color: transparent;
       -webkit-text-stroke: 1px;
       text-transform: uppercase;
-      font-family: "Poppins", sans-serif;
+      font-family: helvetica;
       -webkit-text-stroke-color: var(--heading-color); }
     @media only screen and (max-width: 375px) {
       .service-item-three .content .top-part h4 {
@@ -5075,7 +5077,7 @@ h6, .h6 {
     font-weight: 600;
     color: transparent;
     -webkit-text-stroke: 1px;
-    font-family: "Poppins", sans-serif;
+    font-family: helvetica;
     -webkit-text-stroke-color: white;
     position: absolute;
     left: 50%;
@@ -5579,7 +5581,7 @@ h6, .h6 {
       color: transparent;
       -webkit-text-stroke: 1px;
       text-transform: uppercase;
-      font-family: "Poppins", sans-serif;
+      font-family: helvetica;
       -webkit-transform: translate(-50%, 50%);
       -ms-transform: translate(-50%, 50%);
       transform: translate(-50%, 50%);
@@ -6028,7 +6030,7 @@ h6, .h6 {
     -webkit-box-shadow: 3px 0 60px rgba(103, 77, 243, 0.2);
     box-shadow: 3px 0 60px rgba(103, 77, 243, 0.2);
     border: 10px solid white;
-    font-family: "Poppins", sans-serif;
+    font-family: helvetica;
     background: var(--secondary-color); }
   .work-process-item .content {
     -webkit-transition: 0.5s;
@@ -6087,7 +6089,7 @@ h6, .h6 {
       -webkit-box-shadow: 3px 0 60px rgba(103, 77, 243, 0.2);
       box-shadow: 3px 0 60px rgba(103, 77, 243, 0.2);
       border: 4px solid white;
-      font-family: "Poppins", sans-serif;
+      font-family: helvetica;
       background: var(--secondary-color);
       position: absolute;
       right: -27px;
@@ -6532,7 +6534,7 @@ h6, .h6 {
       content: "\f0da";
       font-weight: 300;
       margin-right: 10px;
-      font-family: 'Font Awesome 5 Pro'; }
+      font-family: 'helvetica'; }
     .pricing-plan-item ul li a:hover {
       color: var(--secondary-color);
       text-decoration: underline; }
@@ -6819,7 +6821,7 @@ h6, .h6 {
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
-    font-family: "Font Awesome 5 Pro"; }
+    font-family: "helvetica"; }
     @media only screen and (max-width: 375px) {
       .testi-content-item .author:before {
         font-size: 45px; } }
@@ -7045,7 +7047,7 @@ h6, .h6 {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  font-family: "Poppins", sans-serif; }
+  font-family: helvetica; }
   .blog-meta-two .tag {
     font-weight: 600;
     padding: 1px 15px;
@@ -7338,7 +7340,7 @@ blockquote {
     line-height: 1;
     font-size: 45px;
     margin-right: 25px;
-    font-family: "Flaticon";
+    font-family: "helvetica";
     color: var(--secondary-color); }
     @media only screen and (max-width: 479px) {
       blockquote:before {
@@ -7411,7 +7413,7 @@ blockquote {
       font-size: 16px;
       border-radius: 5px;
       padding: 10px 18px;
-      font-family: "Poppins", sans-serif; }
+      font-family: helvetica; }
   .comment-body .content .date {
     display: block;
     margin: -2px 0 8px; }
@@ -7726,7 +7728,7 @@ blockquote {
   font-weight: 400;
   background-image: none;
   color: var(--secondary-color);
-  font-family: 'Font Awesome 5 Pro'; }
+  font-family: 'helvetica'; }
 
 .style-two .accordion-button:before {
   content: '';
@@ -7762,7 +7764,7 @@ blockquote {
     font-weight: 400;
     background-image: none;
     color: var(--secondary-color);
-    font-family: 'Font Awesome 5 Pro'; }
+    font-family: 'helvetica'; }
   .style-three .accordion-button.collapsed:after {
     content: '\f070';
     color: var(--heading-color); }
@@ -8304,7 +8306,7 @@ blockquote {
     flex: none;
     content: "\f101";
     margin-right: 10px;
-    font-family: "Font Awesome 5 Pro"; }
+    font-family: "helvetica"; }
   .widget-category ul li a {
     margin-right: auto; }
     .widget-category ul li a:not(:hover) {
@@ -8434,7 +8436,7 @@ blockquote {
       font-size: 18px; } }
   .service-sidebar .widget-category li a:after {
     content: "\f101";
-    font-family: 'Font Awesome 5 Pro'; }
+    font-family: 'helvetica'; }
   .service-sidebar .widget-category li a:hover {
     color: white;
     background: var(--secondary-color); }
@@ -8535,7 +8537,7 @@ blockquote {
 
 .shop-sidebar .widget-category ul li {
   font-weight: 600;
-  font-family: "Poppins", sans-serif; }
+  font-family: helvetica; }
   .shop-sidebar .widget-category ul li span {
     color: var(--heading-color); }
   .shop-sidebar .widget-category ul li:before {
@@ -8634,7 +8636,7 @@ blockquote {
 .footer-logo {
   padding: 25px 30px;
   display: inline-block;
-  background: #1b77e9;
+  background: #1b1f2e;
   -webkit-clip-path: polygon(6% 0%, 100% 0%, 94% 100%, 0% 100%);
   clip-path: polygon(6% 0%, 100% 0%, 94% 100%, 0% 100%); }
 
